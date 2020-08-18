@@ -1,0 +1,21 @@
+.user-tournaments__wrapper {
+  max-width: 470px;
+  width: var(--tournaments-list-wrapper-width);
+}
+
+.user-tournaments__header {
+  margin: 0 0 10px;
+}
+
+.user-tournaments__block {
+  max-height: 500px;
+  width: 100%;
+  overflow: auto;
+}
+
+.user-tournaments__wrapper .tournament-card__wrapper {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px 5px;
+  cursor: default;
+}

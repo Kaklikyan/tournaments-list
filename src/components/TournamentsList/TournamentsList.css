@@ -1,0 +1,19 @@
+.tournaments-list__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: var(--tournaments-list-wrapper-width);
+}
+
+.tournaments-list__search {
+  width: 100%;
+}
+
+.tournaments-list__results {
+  width: 100%;
+  max-height: 230px;
+  overflow: auto;
+}
+
+.tournaments-list__results.active {
+  box-shadow: 1px 1px 10px 0px rgb(28 28 28 / 53%);
+}
